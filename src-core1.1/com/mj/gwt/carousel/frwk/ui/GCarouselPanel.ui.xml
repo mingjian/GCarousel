@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:mj="urn:import:com.mj.gwt.carousel.frwk.ui">
+	<g:HTMLPanel>
+		<g:FlowPanel ui:field="container" styleName="wrapper">
+			<g:FlowPanel ui:field="wrapper" styleName="jcarousel-wrapper">
+				<g:FlowPanel ui:field="core" styleName="jcarousel">
+					<mj:UnorderedList ui:field="ul"></mj:UnorderedList>
+				</g:FlowPanel>
+				<g:Anchor ui:field="prev" styleName="jcarousel-control-prev"></g:Anchor>
+				<g:Anchor ui:field="next" styleName="jcarousel-control-next"></g:Anchor>
+				<mj:Paragraph ui:field="pagination" styleName="jcarousel-pagination"></mj:Paragraph>
+			</g:FlowPanel>
+		</g:FlowPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
